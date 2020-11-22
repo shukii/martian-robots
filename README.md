@@ -24,7 +24,7 @@ To move to an output file run
 
 To run mocha tests: `npm test`
 
-Some tests have been written to test some happy cases, and a few on the edge
+Some tests have been written to test some happy cases, and a few on the edge (literally)
 
 ## Assumptions
 
@@ -35,4 +35,5 @@ Some tests have been written to test some happy cases, and a few on the edge
 * Some more tests
 * Error Handling
 * Possibly some refactoring (I don't like how the grid can control the robots)
+* When a robot gets lost, I have to make it move backwards if there's a scent. This should be checked before making the move. 
 * Adding a UI
